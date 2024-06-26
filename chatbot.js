@@ -1,4 +1,3 @@
-import 'dotenv/config';
 document.addEventListener('DOMContentLoaded', () => {
   const messages = document.getElementById('messages');
   const messageInput = document.getElementById('messageInput');
@@ -35,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('Request body:', JSON.stringify(requestBody));
 
     try {
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${process.env.GEMINAI_SK}`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyD-QflkxemKfAA8nOQj-x-3Kg7QUkHvvUE`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
