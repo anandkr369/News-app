@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter News Chatbot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="chatbot-root">
+    <nav class="navbar">
+      <img src="image.png" alt="logo_hunter" class="logo">
+      <a href="index.html">Home</a>
+      <a href="chatbot.html">Chatbot</a>
+    </nav>
+    <div id="chat-container">
+      <div id="chat-window">
+        <div id="messages"></div>
+      </div>
+      <div id="user-input">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-bottom">
+        &copy; <span id="year"></span> Copyright: <a href="#" class="subscribe-link">Subscribe</a>
+      </div>
+    </footer>
+  </div>
+  <script src="chatbot.js"></script>
+</body>
+</html>

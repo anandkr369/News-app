@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter News</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="root">
+    <nav class="navbar">
+      <img src="image.png" alt="logo_hunter" class="logo">
+      <a href="#" id="homeLink">Home</a>
+      <a href="#" id="newsLink">News</a>
+      <a href="#" id="favoritesLink">Favorites</a>
+      <a href="chatbot.html">Chatbot</a>
+      <input type="text" id="searchBar" placeholder="Search news...">
+      <button id="searchButton">Search</button>
+    </nav>
+    <div id="content"></div>
+    <footer class="footer">
+      <div class="container">
+        <form action="">
+          <div class="flex-container">
+            <div class="form-group">
+              <p>Sign up for our newsletter</p>
+            </div>
+            <div class="form-group">
+              <input type="text" id="newsletter" placeholder="Email address">
+            </div>
+            <div class="form-group">
+              <button type="button" id="subscribeButton">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="year"></span> Copyright: <a href="#" class="subscribe-link">Subscribe</a>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
