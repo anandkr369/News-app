@@ -46,4 +46,4 @@ To run this project, you'll need:
 Clone the repository:
 
 ```sh
-git clone https://github.com/your-username/hunter-news.git
+git clone https://github.com/anandkr369/News-app.git
