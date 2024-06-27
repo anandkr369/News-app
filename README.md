@@ -41,12 +41,7 @@ To run this project, you'll need:
 - Install the live server extension in vs code such that you will get feature for GO LIVE
 - On clicking GO-LIVE page will be running on port: 5500, by default(if not buzy).
 
-### Installation
 
-Clone the repository:
-
-```sh
-git clone https://github.com/anandkr369/News-app.git
 
 
 ## Usage
@@ -72,3 +67,10 @@ git clone https://github.com/anandkr369/News-app.git
 ## License
 - This project is licensed under the MIT License. See the LICENSE file for more details.
 
+### Installation
+
+Clone the repository:
+
+```sh
+git clone https://github.com/anandkr369/News-app.git
+```
