@@ -47,3 +47,28 @@ Clone the repository:
 
 ```sh
 git clone https://github.com/anandkr369/News-app.git
+
+
+## Usage
+- Home Page
+- News Type and Country: Select the news type and country from the dropdown menus and click "Load News" to fetch the latest news.
+- Search: Use the search bar to find specific news articles.
+- Favorites: Click on the heart icon to mark an article as a favorite.
+
+
+## Chatbot Page
+- Chat Interface: Type your message in the input box and click "Send" to interact with the chatbot.
+- Responses: The chatbot will fetch and display responses based on your input.
+
+
+## Contributing
+- We welcome contributions to improve this project! Here are some ways you can help:
+
+- Report Bugs: If you find any bugs, please report them by opening an issue.
+- Suggest Features: If you have ideas for new features, feel free to share them by opening an issue.
+- Submit Pull Requests: If you'd like to contribute code, fork the repository, create a new branch, and submit a pull request.
+
+
+## License
+- This project is licensed under the MIT License. See the LICENSE file for more details.
+
