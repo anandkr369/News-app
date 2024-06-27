@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('Request body:', JSON.stringify(requestBody));
 
     try {
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyD-QflkxemKfAA8nOQj-x-3Kg7QUkHvvUE`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=NO_SECRET_HERE`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
